@@ -9,8 +9,6 @@ export const useInfiniteScroll=(runFunc,itemDivId)=> {
             element.addEventListener("scroll",()=>ButtomOfThePageRun())
     }, [element]);
 
-    fikret129
-
     
     const ButtomOfThePageRun=(e)=>{
         const scrollHeight = element.scrollHeight;
